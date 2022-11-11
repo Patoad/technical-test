@@ -39,38 +39,47 @@ html {
   font-family: 'Play', sans-serif;
 }
 
+.navR {
+  display: none;
+  font-family: 'Play', sans-serif;
+
+}
+
 .navBar{
   background-color: #20d397;
 }
 
 .img{
   width: 1.5rem;
+  margin: 15px 15px 0px 90px;
 }
 
 .image{
   width: .75rem;
+  margin-right: 7px;
 }
 
 .dogos{
   color:#ffffff;
   font-family: 'Play', sans-serif;
+  float: none;
 }
 
 a{
   text-decoration: none;
   color:#fff;
   font-family: 'Play', sans-serif;
-  transition: all .5s;
+  padding: 5px;
 }
 
 nav a{
   color:#fff;
-  text-align: right;
+  position: center;
+  float: right;
 }
 
 a:hover{
   border-bottom: 2px solid #fff;
-  transform-origin:center;
 }
 
 nav a:focus{
@@ -82,12 +91,18 @@ div a{
 }
 
 ul li{
-  display:inline-block;
+  display:inline-flex;
+  position: right;
 }
 
-h1, h2{
+h1{
   font-family: 'Play', sans-serif;
-  margin: 15px 0px 0px 15px;
+  margin: 15px 0px 15px 155px;
+}
+
+h2{
+  font-family: 'Play', sans-serif;
+  margin: 5px 0px 15px 15px;
 }
 
 .content1, .content2, .content3{
@@ -96,14 +111,24 @@ h1, h2{
   border-color: #dddddd;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, .15);
   width: 295px;
-  height: 100vh;
-  margin: 20px 20px;
-  margin-top:0;
+  height: 400px;
+  /* margin: 0px 20px; */
   padding: 10px;
 }
 
 .content1{
-  box-sizing: 50px;;
+  margin-left: 150px;
+}
+
+.content3{
+  float:right;
+  margin-right: 200px;
+  margin-left: -30px;
+}
+
+.content2{
+  float:center;
+  margin-left: 30px
 }
 
 .learn{
@@ -117,7 +142,11 @@ h1, h2{
 
 
 @media only screen and (max-width:500px) {
-  .navBar {
-    
+  .navR {
+    background-color: #20d397;
+    font-family: 'Play', sans-serif;
+
   }
+
+  
 }
