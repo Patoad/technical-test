@@ -120,31 +120,7 @@ h2{
   border-color: #dddddd;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, .15);
   width: 295px;
-  /* margin-left: 50px; */
   }
-
-/* .content1, .content2, .content3{
-  display: inline-block;
-  border: 1px solid;
-  border-color: #dddddd;
-  box-shadow: 7px 7px 7px rgba(0, 0, 0, .15);
-  width: 295px;
-  height: 400px;
-  padding: 10px;
-}
-
-.content1{
-  margin-left: 150px;
-}
-
-.content2{
-  margin-left: 120px
-}
-
-.content3{
-  float:right;
-  margin-right: 100px;
-} */
 
 .learn{
   background-color: #8a2be2;
@@ -161,6 +137,11 @@ h2{
 
 
 
+
+
+
+
+
 @media only screen and (max-width:800px) {
   .navBar{
     display: none;
@@ -172,19 +153,23 @@ h2{
     font-family: 'Play', sans-serif;
     color: #fff;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
   }
 
   .dogosR{
     font-family: 'Play', sans-serif;
-    font-size: 30px;
+    font-size: 10px;
     position: absolute;
-    margin: 12px 10px 5px 20px;
+    margin: 5px 0px 5px 35px;
   }
 
   .imgR{
-    width: 3rem;
-    margin-top: 10px;
-    margin-left: 20px;
+    width: 1rem;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom:5px;
   }
 
   div{
