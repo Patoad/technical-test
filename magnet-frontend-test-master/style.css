@@ -1,3 +1,6 @@
+/**
+* You can edit this whole file.
+*/
 @import url(https://fonts.google.com/specimen/Open+Sans);
 
 
@@ -39,6 +42,10 @@ html {
   background-color: #20d397;
 }
 
+.image{
+  size: 100px;
+}
+
 .dogos{
   color:#ffffff
 }
@@ -46,5 +53,38 @@ html {
 a{
   text-decoration: none;
   color:#fff;
-  display: inline;
+}
+
+a:hover{
+  text-decoration: underline #fff;
+}
+
+nav a{
+  text-decoration: none;
+  color:#fff;
+  display: inline-block;
+}
+
+nav a:focus{
+  text-decoration: underline #fff;
+}
+
+ul li{
+  display:inline-block;
+}
+
+.content1, .content2, .content3{
+  display: inline-block;
+  border: 1px solid;
+  border-color: #dddddd;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, .15);
+  box-sizing: 20px;
+  width: 150px;
+}
+
+.content1{
+  box-sizing: 50px;;
+}
+.learn{
+  background-color: #8a2be2;
 }
