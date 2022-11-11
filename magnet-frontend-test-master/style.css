@@ -36,22 +36,21 @@
 html {
   font-size: 16px;
   line-height: 1.44;
-  font-family: 'Play', sans-serif;
 }
 
 .navR {
   display: none;
-  font-family: 'Play', sans-serif;
-
 }
 
 .navBar{
   background-color: #20d397;
+  display: flex;
+  justify-content: space-between;
 }
 
 .img{
   width: 1.5rem;
-  margin: 15px 15px 0px 90px;
+  margin: 5px 15px 10px 230px;
 }
 
 .image{
@@ -62,7 +61,8 @@ html {
 .dogos{
   color:#ffffff;
   font-family: 'Play', sans-serif;
-  float: none;
+  position: absolute;
+  margin: 5px 0px 0px 270px;
 }
 
 a{
@@ -75,7 +75,8 @@ a{
 nav a{
   color:#fff;
   position: center;
-  float: right;
+  display: inline-block;
+
 }
 
 a:hover{
@@ -97,7 +98,8 @@ ul li{
 
 h1{
   font-family: 'Play', sans-serif;
-  margin: 15px 0px 15px 155px;
+  margin: 15px 0px 15px 198px;
+  font-size: 30px;
 }
 
 h2{
@@ -105,14 +107,29 @@ h2{
   margin: 5px 0px 15px 15px;
 }
 
-.content1, .content2, .content3{
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 180px;
+}
+
+.content{
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid;
+  border-color: #dddddd;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, .15);
+  width: 295px;
+  /* margin-left: 50px; */
+  }
+
+/* .content1, .content2, .content3{
   display: inline-block;
   border: 1px solid;
   border-color: #dddddd;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, .15);
   width: 295px;
   height: 400px;
-  /* margin: 0px 20px; */
   padding: 10px;
 }
 
@@ -120,33 +137,61 @@ h2{
   margin-left: 150px;
 }
 
-.content3{
-  float:right;
-  margin-right: 200px;
-  margin-left: -30px;
+.content2{
+  margin-left: 120px
 }
 
-.content2{
-  float:center;
-  margin-left: 30px
-}
+.content3{
+  float:right;
+  margin-right: 100px;
+} */
 
 .learn{
   background-color: #8a2be2;
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.image{
+  width: .75rem;
 }
 
 
 
 
 
-
-
-@media only screen and (max-width:500px) {
-  .navR {
-    background-color: #20d397;
-    font-family: 'Play', sans-serif;
-
+@media only screen and (max-width:800px) {
+  .navBar{
+    display: none;
   }
 
+  .navR {
+    display: block;
+    background-color: #20d397;
+    font-family: 'Play', sans-serif;
+    color: #fff;
+    width: 100%;
+  }
+
+  .dogosR{
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    margin: 12px 10px 5px 20px;
+  }
+
+  .imgR{
+    width: 3rem;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  div{
+    display: block;
+    width: 100%;
+    margin-right: 50px;
+
+  }
   
 }
